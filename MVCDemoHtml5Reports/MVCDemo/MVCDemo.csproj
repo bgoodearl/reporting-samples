@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <TypescriptCompileBlocked>true</TypescriptCompileBlocked>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="10.0.9" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.9" />
+    <PackageReference Include="SourceGear.sqlite3" Version="3.50.4.5" />
+    <PackageReference Include="Telerik.Reporting.OpenXmlRendering" Version="20.1.26.615" />
+    <PackageReference Include="Telerik.Reporting.Services.AspNetCore" Version="20.1.26.615" />
+    <PackageReference Include="Telerik.WebReportDesigner.Services" Version="20.1.26.615" />
+    <PackageReference Include="Telerik.Drawing.Skia" Version="20.1.26.615" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Common\Northwind.Common.csproj" />
+    <ProjectReference Include="..\Northwind.Entities\Northwind.Entities.csproj" />
+    <ProjectReference Include="..\Northwind.Infrastructure\Northwind.Infrastructure.csproj" />
+    <ProjectReference Include="..\Northwind.ReportHelper\Northwind.ReportHelper.csproj" />
+  </ItemGroup>
+  
+  
+</Project>

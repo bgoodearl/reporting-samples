@@ -1,0 +1,23 @@
+﻿@using MVCDemo.Models.Home
+@model ReportTestsViewModel
+
+<div class="container-fluid">
+    <div class="row justify-content-center pt-5">
+        <div class="col-4 text-center">
+            <h4>MVC Test Reports</h4>
+        </div>
+    </div>
+    <div class="row ml-4">
+        <p>Select a link to generate the test report in a new browser tab.</p>
+    </div>
+    <div class="row">
+        <div class="col-4 ml-4">
+            <ul>
+                @foreach (ReportTest rpt in Model.ReportTests)
+                {
+                    <li>@Html.ActionLink(rpt.ReportName, rpt.ReportMethod, "Reports",  null, new { target = "_blank" })</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

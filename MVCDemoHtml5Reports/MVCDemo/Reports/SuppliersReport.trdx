@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report DataSourceName="sqlDataSource1" Width="7.1in" Name="SuppliersReport" xmlns="http://schemas.telerik.com/reporting/2023/3.0">
+  <DataSources>
+    <SqlDataSource QueryDesignerState="null" ParameterValues="null" ConnectionString="MvcDemo_test" SelectCommand="SELECT CompanyName, ContactName, ContactTitle, City, PostalCode FROM dbo.Suppliers" Name="sqlDataSource1" />
+  </DataSources>
+  <Items>
+    <PageHeaderSection Height="1in" Name="pageHeaderSection1" />
+    <DetailSection Height="0.5in" Name="detailSection1">
+      <Items>
+        <TextBox Width="1.2in" Height="0.2in" Left="0.2in" Top="0.2in" Value="= Fields.CompanyName" Name="textBox1" />
+        <TextBox Width="1.2in" Height="0.2in" Left="1.7in" Top="0.2in" Value="= Fields.ContactName" Name="textBox2" />
+        <TextBox Width="1.2in" Height="0.2in" Left="3.1in" Top="0.2in" Value="= Fields.ContactTitle" Name="textBox3" />
+        <TextBox Width="1.2in" Height="0.2in" Left="4.4in" Top="0.2in" Value="= Fields.City" Name="textBox4" />
+        <TextBox Width="1.2in" Height="0.2in" Left="5.8in" Top="0.2in" Value="= Fields.PostalCode" Name="textBox5" />
+      </Items>
+    </DetailSection>
+    <PageFooterSection Height="1in" Name="pageFooterSection1" />
+  </Items>
+  <PageSettings PaperKind="Letter" Landscape="False" ColumnCount="1" ColumnSpacing="0in">
+    <Margins>
+      <MarginsU Left="1in" Right="1in" Top="1in" Bottom="1in" />
+    </Margins>
+  </PageSettings>
+  <StyleSheet>
+    <StyleRule>
+      <Style>
+        <Padding Left="2pt" Right="2pt" />
+      </Style>
+      <Selectors>
+        <TypeSelector Type="TextItemBase" />
+        <TypeSelector Type="HtmlTextBox" />
+      </Selectors>
+    </StyleRule>
+  </StyleSheet>
+</Report>

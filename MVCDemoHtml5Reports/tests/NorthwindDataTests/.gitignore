@@ -1,0 +1,4 @@
+# Don't version root appsettings
+appsettings.json
+# Don't version local test settings
+appsettings.[Ll]ocal[Tt]esting.json

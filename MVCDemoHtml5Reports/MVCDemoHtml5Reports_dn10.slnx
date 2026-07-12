@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/NorthwindDataTests/NorthwindDataTests.csproj" />
+  </Folder>
+  <Folder Name="/_docs/">
+    <File Path="LICENSE.txt" />
+    <File Path="readme.md" />
+    <File Path="_docs/TR_Northwind.md" />
+    <File Path="_docs/TR_TelerikReporting.md" />
+  </Folder>
+  <Project Path="MVCDemo/MVCDemo.csproj" />
+  <Project Path="Northwind.Common/Northwind.Common.csproj" />
+  <Project Path="Northwind.EFDataApp/Northwind.EFDataApp.csproj" />
+  <Project Path="Northwind.Entities/Northwind.Entities.csproj" />
+  <Project Path="Northwind.Infrastructure/Northwind.Infrastructure.csproj" />
+  <Project Path="Northwind.ReportHelper/Northwind.ReportHelper.csproj" />
+  <Project Path="NorthwindConsole/NorthwindConsole.csproj" />
+</Solution>

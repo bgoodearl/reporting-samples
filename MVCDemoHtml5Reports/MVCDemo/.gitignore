@@ -1,0 +1,9 @@
+# .gitignore for MACRIS2ReportsWeb
+wwwroot/css2
+wwwroot/js2
+
+# Don't version root appsettings or user-specific appsettings
+appsettings.json
+appsettings.localdev.json
+
+[Aa]pp_[Dd]ata/[Mm][Vv][Cc][Dd]emo

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid">
+  <div class="row justify-content-center pt-5">
+    <div class="col-4 text-center">
+      <h4>Telerik Reports</h4>
+    </div>
+  </div>
+  @if (Model.HaveReportTests)
+  {
+    @Html.ActionLink("Report Tests", "ReportTests", "Home")
+  }
+  else
+  {
+    <div class="row justify-content-center">
+      <div class="col-4 text-center">
+        <p>There is no report to display.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-2">
+      <div class="col-4 text-center">
+        <button id="closeButton" type="button" class="btn btn-primary">Close</button>
+      </div>
+    </div>
+  }
+</div>
