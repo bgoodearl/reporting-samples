@@ -1,5 +1,7 @@
 # Telerik Reporting with .NET 10
 
+[Telerik Reporting - Release History](https://www.telerik.com/support/whats-new/reporting/release-history)
+
 ## Report Designer
 
 [Standalone Report Designer Overview](https://docs.telerik.com/reporting/designing-reports/report-designer-tools/desktop-designers/standalone-report-designer/overview)

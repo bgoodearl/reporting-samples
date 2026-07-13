@@ -2,6 +2,8 @@
 
 Demo app with Telerik Reports and ASP.NET 10 MVC
 
+Updated for Telerik Reporting 2026 Q2 (20.1.26.707)
+
 From Telerik Report Samples: `...\reporting-samples\MVCDemoHtml5Reports`
 
 2 reports - one uses SQL query, the other uses Entity Framework Core
