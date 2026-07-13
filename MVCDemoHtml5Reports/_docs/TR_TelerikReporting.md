@@ -2,6 +2,8 @@
 
 [Telerik Reporting - Release History](https://www.telerik.com/support/whats-new/reporting/release-history)
 
+[Upgrading Telerik Reporting](https://www.telerik.com/products/reporting/documentation/upgrade/overview)
+
 ## Report Designer
 
 [Standalone Report Designer Overview](https://docs.telerik.com/reporting/designing-reports/report-designer-tools/desktop-designers/standalone-report-designer/overview)
